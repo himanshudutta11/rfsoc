@@ -12,3 +12,12 @@ With the following combination we need the changes to files as attached in this 
 * MATLAB R2021a
 
 
+The file changes will go in the below paths once the original repository is cloned.
+
+/rfsoc_radio/boards/ip/sysgen/data_inspector/data_inspector_module_setup.m
+/rfsoc_radio/boards/ip/sysgen/data_inspector/inspector.slx
+/rfsoc_radio/boards/ip/sysgen/receiver/receiver.slx
+/rfsoc_radio/boards/ip/sysgen/receiver/setup_receiver.m
+/rfsoc_radio/boards/ip/sysgen/transmitter/setup_transmitter.m
+/rfsoc_radio/boards/ip/sysgen/transmitter/transmitter.slx
+/rfsoc_radio/boards/RFSoC2x2/rfsoc_radio/rfsoc_radio.tcl
