@@ -1,0 +1,123 @@
+nrhdlSignalDetection/SSB Detect and Demod/OFDM Demodulator/Delay Enabled Synchronous/Synchronous Delay --> Synchronous_Delay
+nrhdlSignalDetection/SSB Detect and Demod/OFDM Demodulator/Delay Enabled Synchronous --> Delay_Enabled_Synchronous
+nrhdlSignalDetection/SSB Detect and Demod/OFDM Demodulator/Detect Rise Positive --> Detect_Rise_Positive
+nrhdlSignalDetection/SSB Detect and Demod/OFDM Demodulator/OFDM Demod Controller --> OFDM_Demod_Controller
+ --> SubcarrierSelector
+ --> HDLFFTShift
+nrhdlSignalDetection/SSB Detect and Demod/Stream Synchronizer/SimpleDualPortRAM_generic --> SimpleDualPortRAM_generic
+ --> CPRemoval_stage2
+ --> CPRemoval_stage1
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 0/Addressable_Delay_Line/SimpleDualPortRAM_generic --> SimpleDualPortRAM_generic_block
+dsphdl.FFT/RADIX22FFT_SDF1_1/SDFCommutator1 --> SDFCommutator1
+dsphdl.FFT/RADIX22FFT_SDF1_1 --> RADIX22FFT_SDF1_1
+dsphdl.FFT/RADIX22FFT_CTRL1_1 --> RADIX22FFT_CTRL1_1
+dsphdl.FFT/RADIX22FFT_SDF2_2/SDFCommutator2 --> SDFCommutator2
+dsphdl.FFT/RADIX22FFT_SDF2_2 --> RADIX22FFT_SDF2_2
+dsphdl.FFT/RADIX22FFT_CTRL1_2 --> RADIX22FFT_CTRL1_2
+dsphdl.FFT/TWDLROM_3_1 --> TWDLROM_3_1
+dsphdl.FFT/RADIX22FFT_SDF1_3/Complex4Multiply --> Complex4Multiply
+dsphdl.FFT/RADIX22FFT_SDF1_3/SDFCommutator3 --> SDFCommutator3
+dsphdl.FFT/RADIX22FFT_SDF1_3 --> RADIX22FFT_SDF1_3
+dsphdl.FFT/RADIX22FFT_CTRL1_3 --> RADIX22FFT_CTRL1_3
+dsphdl.FFT/RADIX22FFT_SDF2_4/SDFCommutator4 --> SDFCommutator4
+dsphdl.FFT/RADIX22FFT_SDF2_4 --> RADIX22FFT_SDF2_4
+dsphdl.FFT/RADIX22FFT_CTRL1_4 --> RADIX22FFT_CTRL1_4
+dsphdl.FFT/TWDLROM_5_1 --> TWDLROM_5_1
+dsphdl.FFT/RADIX22FFT_SDF1_5/Complex4Multiply --> Complex4Multiply_block
+dsphdl.FFT/RADIX22FFT_SDF1_5/SDFCommutator5 --> SDFCommutator5
+dsphdl.FFT/RADIX22FFT_SDF1_5 --> RADIX22FFT_SDF1_5
+dsphdl.FFT/RADIX22FFT_CTRL1_5 --> RADIX22FFT_CTRL1_5
+dsphdl.FFT/RADIX22FFT_SDF2_6/SDFCommutator6 --> SDFCommutator6
+dsphdl.FFT/RADIX22FFT_SDF2_6 --> RADIX22FFT_SDF2_6
+dsphdl.FFT/RADIX22FFT_CTRL1_6 --> RADIX22FFT_CTRL1_6
+dsphdl.FFT/TWDLROM_7_1 --> TWDLROM_7_1
+dsphdl.FFT/RADIX22FFT_SDF1_7/Complex4Multiply --> Complex4Multiply_block1
+dsphdl.FFT/RADIX22FFT_SDF1_7/SDFCommutator7 --> SDFCommutator7
+dsphdl.FFT/RADIX22FFT_SDF1_7 --> RADIX22FFT_SDF1_7
+dsphdl.FFT/RADIX22FFT_CTRL1_7 --> RADIX22FFT_CTRL1_7
+dsphdl.FFT/RADIX22FFT_SDF2_8/SDFCommutator8 --> SDFCommutator8
+dsphdl.FFT/RADIX22FFT_SDF2_8 --> RADIX22FFT_SDF2_8
+dsphdl.FFT/RADIX22FFT_CTRL1_8 --> RADIX22FFT_CTRL1_8
+dsphdl.FFT/RADIX2FFT_bitNatural --> RADIX2FFT_bitNatural
+dsphdl.FFT --> dsphdl_FFT
+nrhdlSignalDetection/SSB Detect and Demod/OFDM Demodulator/OFDM Demodulator --> OFDM_Demodulator
+nrhdlSignalDetection/SSB Detect and Demod/OFDM Demodulator --> OFDM_Demodulator_block
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/Delay Enabled Synchronous/Synchronous Delay --> Synchronous_Delay_block
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/Delay Enabled Synchronous --> Delay_Enabled_Synchronous_block
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 0/Delay Enabled Synchronous/Synchronous Delay --> Synchronous_Delay_block1
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 0/Delay Enabled Synchronous --> Delay_Enabled_Synchronous_block1
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 0/enabledTapDelay --> enabledTapDelay
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 0/pipelinedMax --> pipelinedMax
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 0 --> filter_peaks_0
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 1/Delay Enabled Synchronous/Synchronous Delay --> Synchronous_Delay_block2
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 1/Delay Enabled Synchronous --> Delay_Enabled_Synchronous_block2
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 1/enabledTapDelay --> enabledTapDelay_block
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 1/pipelinedMax --> pipelinedMax_block
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 1 --> filter_peaks_1
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 2/Delay Enabled Synchronous/Synchronous Delay --> Synchronous_Delay_block3
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 2/Delay Enabled Synchronous --> Delay_Enabled_Synchronous_block3
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 2/enabledTapDelay --> enabledTapDelay_block1
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 2/pipelinedMax --> pipelinedMax_block1
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/filter peaks 2 --> filter_peaks_2
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak/register PSS ID --> register_PSS_ID
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Find Peak --> Find_Peak
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Stream Synchronizer/MATLAB Function --> MATLAB_Function
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 0/Addressable_Delay_Line/SimpleDualPortRAM_generic --> SimpleDualPortRAM_generic_block1
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/Stream Synchronizer --> Stream_Synchronizer
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/corrMag0 --> corrMag0
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/corrMag1 --> corrMag1
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/corrMag2 --> corrMag2
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/signalMag --> signalMag
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/signalMagAverage/Synchronous Enabled Nfft Sample Delay  --> Synchronous_Enabled_Nfft_Sample_Delay
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/signalMagAverage --> signalMagAverage
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 0/FirRdyLogic --> FirRdyLogic
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 0/Addressable_Delay_Line --> Addressable_Delay_Line
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 0/FilterTapSystolic --> FilterTapSystolic
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 0/Addressable_Delay_Line --> Addressable_Delay_Line_block
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 0/FilterTapSystolic --> FilterTapSystolic_block
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 0/Addressable_Delay_Line --> Addressable_Delay_Line_block1
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 0/FilterTapSystolic --> FilterTapSystolic_block1
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 0 --> PSS_Correlator_0
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 1/FirRdyLogic --> FirRdyLogic_block
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 1/Addressable_Delay_Line --> Addressable_Delay_Line_block2
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 1/FilterTapSystolic --> FilterTapSystolic_block2
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 1/Addressable_Delay_Line --> Addressable_Delay_Line_block3
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 1/FilterTapSystolic --> FilterTapSystolic_block3
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 1/Addressable_Delay_Line --> Addressable_Delay_Line_block4
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 1/FilterTapSystolic --> FilterTapSystolic_block4
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 1 --> PSS_Correlator_1
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 2/FirRdyLogic --> FirRdyLogic_block1
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 2/Addressable_Delay_Line --> Addressable_Delay_Line_block5
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 2/FilterTapSystolic --> FilterTapSystolic_block5
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 2/Addressable_Delay_Line --> Addressable_Delay_Line_block6
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 2/FilterTapSystolic --> FilterTapSystolic_block6
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 2/Addressable_Delay_Line --> Addressable_Delay_Line_block7
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 2/FilterTapSystolic --> FilterTapSystolic_block7
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector/PSS Correlator 2 --> PSS_Correlator_2
+nrhdlSignalDetection/SSB Detect and Demod/PSS Detector --> PSS_Detector
+nrhdlSignalDetection/SSB Detect and Demod/Stream Synchronizer/MATLAB Function --> MATLAB_Function_block
+nrhdlSignalDetection/SSB Detect and Demod/Stream Synchronizer --> Stream_Synchronizer_block
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/Transient Removal --> Transient_Removal
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/partlySerialCtrl --> partlySerialCtrl
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/FirRdyLogic --> FirRdyLogic_block2
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/Addressable_Delay_Line --> Addressable_Delay_Line_block8
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/FilterTapSystolic --> FilterTapSystolic_block8
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/Addressable_Delay_Line --> Addressable_Delay_Line_block9
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/FilterTapSystolic --> FilterTapSystolic_block9
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial --> FIRPartlySerial
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/FirRdyLogic --> FirRdyLogic_block3
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/Addressable_Delay_Line --> Addressable_Delay_Line_block10
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/Addressable_Delay_Line --> Addressable_Delay_Line_block11
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/Addressable_Delay_Line --> Addressable_Delay_Line_block12
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/Addressable_Delay_Line --> Addressable_Delay_Line_block13
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/FilterTapSystolicPreAdd --> FilterTapSystolicPreAdd
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/Addressable_Delay_Line --> Addressable_Delay_Line_block14
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/Addressable_Delay_Line --> Addressable_Delay_Line_block15
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/Addressable_Delay_Line --> Addressable_Delay_Line_block16
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/Addressable_Delay_Line --> Addressable_Delay_Line_block17
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial/FilterTapSystolicPreAdd --> FilterTapSystolicPreAdd_block
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/FIRPartlySerial --> FIRPartlySerial_block
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator/sumTree_firdecim --> sumTree_firdecim
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection/FIR Decimator --> FIR_Decimator
+nrhdlSignalDetection/SSB Detect and Demod/scsSelection --> scsSelection
+nrhdlSignalDetection/SSB Detect and Demod --> SSB_Detect_and_Demod

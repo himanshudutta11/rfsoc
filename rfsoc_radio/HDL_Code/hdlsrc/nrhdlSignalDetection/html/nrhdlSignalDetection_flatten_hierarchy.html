@@ -1,0 +1,456 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="rtwreport.css" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>
+Hierarchy Flattening Report for nrhdlSignalDetection
+</title>
+
+</head>
+<body bgcolor="#ffffff" link="0033CC" vlink="#666666" onload="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdFlattenHierarchy'); else local_onload();}} catch(err) {};">
+<font SIZE="+2" COLOR="#000066">
+Hierarchy Flattening Report for nrhdlSignalDetection
+</font>
+<br /><br /><br /><script>
+<!--
+function hdlTableShrink(o,tagNameStr)
+{
+var temp = document.getElementsByName(tagNameStr);
+if (temp[0].style.display == "")
+{
+	temp[0].style.display = "none";
+	o.innerHTML = '<span style="font-family:monospace">[+]</span>';
+}
+else
+{
+	temp[0].style.display = "";
+	o.innerHTML = '<span style="font-family:monospace">[-]</span>';
+}
+}
+// -->
+</script>
+<script>
+<!--
+function hdlTableCollapseAll(o, numNtks, numComps)
+{
+	var id = "";
+	for (i = 1; i <= numNtks; i++)
+	{
+		for (j = 1; j <= numComps; j++)
+		{
+			id = "Multiply" + "_" + i + "_" + j;
+			var temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "none";
+			}
+			id = "Adder" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "none";
+			}
+			id = "Subtractor" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "none";
+			}
+			id = "Register" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "none";
+			}
+			id = "RAM" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "none";
+			}
+			id = "Multiplexer" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "none";
+			}
+		}
+	}
+	var collapsibles = document.getElementsByName('collapsible');
+	for (i = 0; i < collapsibles.length; i++)
+	{
+		collapsibles[i].innerHTML = '<span style="font-family:monospace">[+]</span>';
+	}
+}
+// -->
+</script>
+<script>
+<!--
+function hdlTableExpandAll(o, numNtks, numComps)
+{
+	var id = "";
+	for (i = 1; i <= numNtks; i++)
+	{
+		for (j = 1; j <= numComps; j++)
+		{
+			id = "Multiply" + "_" + i + "_" + j;
+			var temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "";
+			}
+			id = "Adder" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "";
+			}
+			id = "Subtractor" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "";
+			}
+			id = "Register" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "";
+			}
+			id = "RAM" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "";
+			}
+			id = "Multiplexer" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "";
+			}
+		}
+	}
+	var collapsibles = document.getElementsByName('collapsible');
+	for (i = 0; i < collapsibles.length; i++)
+	{
+		collapsibles[i].innerHTML = '<span style="font-family:monospace">[-]</span>';
+	}
+}
+// -->
+</script>
+<a name="List of subsystems:">
+<font size="+1" color="#000066">
+<b class="midprod">
+List of subsystems:
+</b>
+
+</font>
+
+</a>
+<br /><br /><b>
+<li>'FlattenHierarchy' turned 'on':</li>
+</b>
+<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'onList')" onmouseover="this.style.cursor = 'pointer'">
+[+]
+</span>
+<span name="onList" id="onList" style="display: none;">
+<ul>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1483')" name="code2model" class="code2model">
+HDL Counter
+</a>
+
+</li>
+
+</ul>
+
+</span>
+<br /><br /><b>
+<li>'FlattenHierarchy' turned 'off':</li>
+</b>
+<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'offList')" onmouseover="this.style.cursor = 'pointer'">
+[+]
+</span>
+<span name="offList" id="offList" style="display: none;">
+<ul class="SystemdefinedCollapse" id="980d4def-f47b-4a29-9ff2-50d25e8d9b86" dataCollapse="off">
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:286')" name="code2model" class="code2model">
+OFDM Demodulator
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:965')" name="code2model" class="code2model">
+Transient Removal
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:412')" name="code2model" class="code2model">
+MATLAB Function
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:340')" name="code2model" class="code2model">
+MATLAB Function
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:712')" name="code2model" class="code2model">
+register PSS ID
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1026')" name="code2model" class="code2model">
+OFDM Demod Controller
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:947')" name="code2model" class="code2model">
+scsSelection
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:408')" name="code2model" class="code2model">
+Stream Synchronizer
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:377')" name="code2model" class="code2model">
+Synchronous Enabled
+Nfft Sample Delay 
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:364')" name="code2model" class="code2model">
+signalMagAverage
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:344')" name="code2model" class="code2model">
+signalMag
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1074')" name="code2model" class="code2model">
+corrMag2
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1057')" name="code2model" class="code2model">
+corrMag1
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:474')" name="code2model" class="code2model">
+corrMag0
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:336')" name="code2model" class="code2model">
+Stream Synchronizer
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1855')" name="code2model" class="code2model">
+pipelinedMax
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1849')" name="code2model" class="code2model">
+enabledTapDelay
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1833')" name="code2model" class="code2model">
+Synchronous Delay
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1830')" name="code2model" class="code2model">
+Delay Enabled
+Synchronous
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1825')" name="code2model" class="code2model">
+filter peaks 2
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1817')" name="code2model" class="code2model">
+pipelinedMax
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1811')" name="code2model" class="code2model">
+enabledTapDelay
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1795')" name="code2model" class="code2model">
+Synchronous Delay
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1792')" name="code2model" class="code2model">
+Delay Enabled
+Synchronous
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1787')" name="code2model" class="code2model">
+filter peaks 1
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1492')" name="code2model" class="code2model">
+pipelinedMax
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1296')" name="code2model" class="code2model">
+enabledTapDelay
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1692')" name="code2model" class="code2model">
+Synchronous Delay
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1689')" name="code2model" class="code2model">
+Delay Enabled
+Synchronous
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:778')" name="code2model" class="code2model">
+filter peaks 0
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1776')" name="code2model" class="code2model">
+Synchronous Delay
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1773')" name="code2model" class="code2model">
+Delay Enabled
+Synchronous
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:308')" name="code2model" class="code2model">
+Find Peak
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:290')" name="code2model" class="code2model">
+PSS Detector
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:278')" name="code2model" class="code2model">
+Detect Rise
+Positive
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1681')" name="code2model" class="code2model">
+Synchronous Delay
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1678')" name="code2model" class="code2model">
+Delay Enabled
+Synchronous
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:1030')" name="code2model" class="code2model">
+OFDM Demodulator
+</a>
+
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('nrhdlSignalDetection:271')" name="code2model" class="code2model">
+SSB Detect and Demod
+</a>
+
+</li>
+
+</ul>
+<span class="SDCollapseControl" onmouseover="this.style.cursor = 'pointer'">
+&#8743; Less
+</span>
+<br />
+</span>
+<br /><br /><a name="Flattening Status:">
+<font size="+1" color="#000066">
+<b class="midprod">
+Flattening Status:
+</b>
+
+</font>
+
+</a>
+<br /><br />'Hierarchical flattening' was successful.<br /><br /><a name="Generated Model">
+<font size="+1" color="#000066">
+<b class="midprod">
+Generated Model
+</b>
+
+</font>
+
+</a>
+<br /><br /><table width="100%" border="1">
+<tr style="background-color: #eeeeff">
+<td align="left" valign="top" style="border-style: none">
+Generated model after the transformation
+</td>
+<td align="left" valign="top" style="border-style: none">
+<a href="matlab:open_system('C:\Users\TEMP.AD.003\Documents\MATLAB\Examples\R2023b\xilinxsoc\OFDMTransmitAndReceiveUsingXilinxRFSoCDeviceExample\C:\Kiran\Project\hdlsrc\nrhdlSignalDetection\gm_nrhdlSignalDetection')" class="callMATLAB" name="callMATLAB">gm_nrhdlSignalDetection</a>
+</td>
+
+</tr>
+
+</table>
+<br />
+</body>
+
+</html>
